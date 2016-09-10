@@ -38,16 +38,15 @@ sudo ctags -e -R
 ### Building
 
 ```
-make clean; make; ./hello-gl
+make clean; make; ./flag
 ```
 
 ### Running
-
-Vertex shaders can be specified as an argument on the command line:
 ```
-make; ./hello-gl naive-perspective-rotation.v.glsl
+make; ./flag
 ```
 
+Click mouse and drag to change camera position, press "r" to reload the shaders.
 
 i.e. `Makefile` is a symlink to `Makefile.MacOSX`
 
